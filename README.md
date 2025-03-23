@@ -1,4 +1,4 @@
-# library.h
+# ini.h
 
 ## Get started
 
