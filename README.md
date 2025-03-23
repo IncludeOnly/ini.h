@@ -3,23 +3,17 @@
 ## Get started
 
 ```bash
-wget https://raw.githubusercontent.com/IncludeOnly/<library>.h/refs/heads/main/<library>.h
+wget https://raw.githubusercontent.com/IncludeOnly/ini.h/refs/heads/main/ini.h
 ```
 
-## Example
-
-```c
-<example code>
-```
+> [!NOTE]
+> This is NOT my library. Its a slightly modified version of this [library](https://github.com/benhoyt/inih)
+> that i like to use
 
 ## If you really need to link
 
 ```bash
-mv <library>.h <library>.c
-cc -o lib<library>.so <library>.c -fPIC -D<LIBRARY>_IMPLEMENTATION -shared
-mv <library>.c <library>.h
+mv ini.h ini.c
+cc -o libini.so ini.c -fPIC -DINI_IMPLEMENTATION -shared
+mv ini.c ini.h
 ```
-
-## License
-
-[MIT](./LICENSE)
